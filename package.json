@@ -4,6 +4,7 @@
   "description": "An ecommerce website with multi vendors",
   "main": "index.js",
   "scripts": {
+    "lint: fix":  "eslint --fix ./*.js",
     "serve: local": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +25,8 @@
     "express": "^4.17.2"
   },
   "devDependencies": {
+    "eslint": "^8.5.0",
+    "eslint-config-google": "^0.14.0",
     "nodemon": "^2.0.15"
   }
 }
