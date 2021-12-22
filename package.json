@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "An ecommerce website with multi vendors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yadirah8/ecommerce.git"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Yadirichi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yadirah8/ecommerce/issues"
+  },
+  "homepage": "https://github.com/yadirah8/ecommerce#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
